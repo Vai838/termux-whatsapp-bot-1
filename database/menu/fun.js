@@ -33,12 +33,6 @@ const fun = (prefix, botName, ownerName) => {
    ┠≽ *${prefix}bucin*
    ┃ *Desc* : Send a Random Slave of Love
    ┠──────────────╼
-   ┠≽ *${prefix}trust*
-   ┃ *Desc* : Send a Random Truth
-   ┠──────────────╼
-   ┠≽ *${prefix}dare*
-   ┃ *Desc* : Send a Random Dare
-   ┠──────────────╼
    ┠≽ *${prefix}simi* <text>
    ┃ *Desc* : Talk to Simi
    ┠──────────────╼

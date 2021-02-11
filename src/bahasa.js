@@ -51,6 +51,7 @@ const bahasa = (prefix, sender) => {
     th        Thai
     tr        Turkish
     vi        Vietnamese
+    ml        Malayalam
     cy        Welsh`
 }
 

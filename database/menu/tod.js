@@ -25,13 +25,9 @@ const tod = (prefix, botName, ownerName) => {
 ┠≽ *${prefix}bugreport* <text>
 ┃ *Desc* : Report Bug To Owner Bot
 ╿
-┷┯ *〈 TRUST OR DARE 〉*
+┷┯ *〈 Whatsapp Bot 〉*
    ╽
-   ┠≽ *${prefix}trust*
-   ┃ *Desc* : Random trust
-   ┠──────────────╼
-   ┠≽ *${prefix}dare*
-   ┃ *Desc* : Random Dare
+   ┠≽ *Thanks for using
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}`
 }

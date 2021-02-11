@@ -33,8 +33,6 @@ const search = (prefix, botName, ownerName) => {
    ┠≽ *${prefix}ytsearch <query>
    ┃ *Desc* : Search YouTube Video
    ┠──────────────╼
-   ┠≽ *${prefix}trendtwit
-   ┃ *Desc* : Search Trending Twitter Video
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}`
 }

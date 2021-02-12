@@ -396,7 +396,7 @@ async function starts() {
 					ownerB: '[❕] This command can only be used by the owner bot!',
 					admin: '[❕] This command can only be used by group admins!',
 					Badmin: '[❕] This command can only be used when the bot becomes admin!',
-                                        daftarB: `──「 NOT REGISTERED 」──\nHello buddy! !\nYou haven't registered yet, let's register first... \n\nCommand : ${prefix}register name|age \nExample : ${prefix}register Vai|19`,
+                                        daftarB: `──「 NOT REGISTERED 」──\nHello buddy! !\nYou have not registered yet, let's register first... \n\nCommand : ${prefix}register name|age \nExample : ${prefix}register Vai|19`,
 				}
 			}
     			const apakah = ['Yea','Nope']

@@ -1401,7 +1401,7 @@ async function starts() {
 						nzwa.groupAdd(from, [num])
 					} catch (e) {
 						console.log('Error :', e)
-						reply('Failed to add target, maybe because it's private')
+						reply('Failed to add target, maybe because it maybe private')
 					}
 					break
 

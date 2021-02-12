@@ -536,7 +536,7 @@ async function starts() {
         if (messagesC.includes("://chat.whatsapp.com/")){
 		if (!isGroup) return
 		if (!isAntiLink) return
-		if (isGroupAdmins) return reply('because you are a group admin, bot won't kick you')
+		if (isGroupAdmins) return reply('because you are a group admin, bot will not kick you')
 		nzwa.updatePresence(from, Presence.composing)
 		if (messagesC.includes("#permitadmin")) return reply("#permitadmin Received")
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`

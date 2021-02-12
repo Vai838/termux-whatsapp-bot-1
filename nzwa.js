@@ -82,7 +82,7 @@ const { fun } = require('./database/menu/fun')
 const { group } = require('./database/menu/group')
 const { imagemaker } = require('./database/menu/imagemaker')
 const { information } = require('./database/menu/information')
-const { islam } = require('./database/menu/islam')
+/*const { islam } = require('./database/menu/islam')*/
 const { kerang } = require('./database/menu/kerang')
 const { meme } = require('./database/menu/meme')
 const { music } = require('./database/menu/music')
@@ -611,10 +611,10 @@ async function starts() {
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(information(prefix, botName, ownerName), text, tescuk, cr)
                                         break
-                                case 'islammenu':
+                                /*case 'islammenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(islam(prefix, botName, ownerName), text, tescuk, cr)
-                                        break
+                                        break*/
                                 case 'kerangmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(kerang(prefix, botName, ownerName), text, tescuk, cr)
